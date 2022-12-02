@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="CommandLineParser" />
+    <None Remove="Microsoft.Azure.Devices.Client" />
+    <None Remove="Azure.Messaging.EventHubs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.9.1" />
+    <PackageReference Include="Azure.Messaging.EventHubs" Version="5.7.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\azure-iot-sdk-csharp\iothub\device\src\Microsoft.Azure.Devices.Client.csproj" />
+    <ProjectReference Include="..\..\azure-iot-sdk-csharp\shared\src\Microsoft.Azure.Devices.Shared.csproj" />
+  </ItemGroup>
+</Project>

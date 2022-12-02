@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1704.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IotSender", "IotSender\IotSender.csproj", "{8F8712C2-28FF-41A1-962F-6029D8795834}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IotReader", "IotReader\IotReader.csproj", "{D8BB0790-27D1-4E9C-8783-9E2705458D37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Azure.Devices.Shared", "..\azure-iot-sdk-csharp\shared\src\Microsoft.Azure.Devices.Shared.csproj", "{5A97C3B3-166E-40BA-825E-7FB40CE84F64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Azure.Devices.Client", "..\azure-iot-sdk-csharp\iothub\device\src\Microsoft.Azure.Devices.Client.csproj", "{17C442F4-6FBF-4708-9222-5DCA30C0F3F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F8712C2-28FF-41A1-962F-6029D8795834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F8712C2-28FF-41A1-962F-6029D8795834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F8712C2-28FF-41A1-962F-6029D8795834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F8712C2-28FF-41A1-962F-6029D8795834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8BB0790-27D1-4E9C-8783-9E2705458D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8BB0790-27D1-4E9C-8783-9E2705458D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8BB0790-27D1-4E9C-8783-9E2705458D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8BB0790-27D1-4E9C-8783-9E2705458D37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A97C3B3-166E-40BA-825E-7FB40CE84F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A97C3B3-166E-40BA-825E-7FB40CE84F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A97C3B3-166E-40BA-825E-7FB40CE84F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A97C3B3-166E-40BA-825E-7FB40CE84F64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17C442F4-6FBF-4708-9222-5DCA30C0F3F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17C442F4-6FBF-4708-9222-5DCA30C0F3F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17C442F4-6FBF-4708-9222-5DCA30C0F3F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17C442F4-6FBF-4708-9222-5DCA30C0F3F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1384BA82-751D-40D8-B9AD-331C7673EA36}
+	EndGlobalSection
+EndGlobal
