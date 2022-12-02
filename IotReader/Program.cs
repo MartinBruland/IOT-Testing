@@ -5,6 +5,10 @@
 // For samples see: https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/eventhub/Azure.Messaging.EventHubs/samples/README.md
 // For documentation see: https://docs.microsoft.com/azure/event-hubs/
 
+
+
+// Example code .....
+
 using System;
 using System.Collections.Generic;
 using System.Text;
