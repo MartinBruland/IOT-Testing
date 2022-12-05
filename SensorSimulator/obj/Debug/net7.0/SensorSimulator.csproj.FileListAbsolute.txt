@@ -1,0 +1,15 @@
+/Users/martinbruland/Work/FangstID/MartinApps/SensorSimulator/obj/Debug/net7.0/SensorSimulator.csproj.AssemblyReference.cache
+/Users/martinbruland/Work/FangstID/MartinApps/SensorSimulator/obj/Debug/net7.0/SensorSimulator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/martinbruland/Work/FangstID/MartinApps/SensorSimulator/obj/Debug/net7.0/SensorSimulator.AssemblyInfoInputs.cache
+/Users/martinbruland/Work/FangstID/MartinApps/SensorSimulator/obj/Debug/net7.0/SensorSimulator.AssemblyInfo.cs
+/Users/martinbruland/Work/FangstID/MartinApps/SensorSimulator/obj/Debug/net7.0/SensorSimulator.csproj.CoreCompileInputs.cache
+/Users/martinbruland/Work/FangstID/MartinApps/SensorSimulator/bin/Debug/net7.0/SensorSimulator
+/Users/martinbruland/Work/FangstID/MartinApps/SensorSimulator/bin/Debug/net7.0/SensorSimulator.deps.json
+/Users/martinbruland/Work/FangstID/MartinApps/SensorSimulator/bin/Debug/net7.0/SensorSimulator.runtimeconfig.json
+/Users/martinbruland/Work/FangstID/MartinApps/SensorSimulator/bin/Debug/net7.0/SensorSimulator.dll
+/Users/martinbruland/Work/FangstID/MartinApps/SensorSimulator/bin/Debug/net7.0/SensorSimulator.pdb
+/Users/martinbruland/Work/FangstID/MartinApps/SensorSimulator/obj/Debug/net7.0/SensorSimulator.dll
+/Users/martinbruland/Work/FangstID/MartinApps/SensorSimulator/obj/Debug/net7.0/refint/SensorSimulator.dll
+/Users/martinbruland/Work/FangstID/MartinApps/SensorSimulator/obj/Debug/net7.0/SensorSimulator.pdb
+/Users/martinbruland/Work/FangstID/MartinApps/SensorSimulator/obj/Debug/net7.0/SensorSimulator.genruntimeconfig.cache
+/Users/martinbruland/Work/FangstID/MartinApps/SensorSimulator/obj/Debug/net7.0/ref/SensorSimulator.dll

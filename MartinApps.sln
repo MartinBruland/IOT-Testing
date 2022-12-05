@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Azure.Devices.Sha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.Azure.Devices.Client", "..\azure-iot-sdk-csharp\iothub\device\src\Microsoft.Azure.Devices.Client.csproj", "{17C442F4-6FBF-4708-9222-5DCA30C0F3F6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SensorSimulator", "SensorSimulator\SensorSimulator.csproj", "{6B0D0CE3-AEE3-49F5-81B9-4E6338D67001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Program", "Program\Program.csproj", "{910EA11F-B8EF-4C24-9046-ACA0E89A82E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{17C442F4-6FBF-4708-9222-5DCA30C0F3F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17C442F4-6FBF-4708-9222-5DCA30C0F3F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17C442F4-6FBF-4708-9222-5DCA30C0F3F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B0D0CE3-AEE3-49F5-81B9-4E6338D67001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B0D0CE3-AEE3-49F5-81B9-4E6338D67001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B0D0CE3-AEE3-49F5-81B9-4E6338D67001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B0D0CE3-AEE3-49F5-81B9-4E6338D67001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{910EA11F-B8EF-4C24-9046-ACA0E89A82E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{910EA11F-B8EF-4C24-9046-ACA0E89A82E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{910EA11F-B8EF-4C24-9046-ACA0E89A82E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{910EA11F-B8EF-4C24-9046-ACA0E89A82E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

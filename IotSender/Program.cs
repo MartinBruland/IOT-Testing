@@ -1,10 +1,4 @@
-﻿// Copyright (c) Microsoft. All rights reserved.
-// Licensed under the MIT license. See LICENSE file in the project root for full license information.
-
-// This application uses the Azure IoT Hub device SDK for .NET
-// For samples see: https://github.com/Azure/azure-iot-sdk-csharp/tree/main/iothub/device/samples
-
-using System;
+﻿using System;
 using System.Linq;
 using System.Text;
 using System.Text.Json;
@@ -15,10 +9,7 @@ using CommandLine;
 
 namespace SimulatedDevice
 {
-    /// <summary>
-    /// This sample illustrates the very basics of a device app sending telemetry. For a more comprehensive device app sample, please see
-    /// <see href="https://github.com/Azure-Samples/azure-iot-samples-csharp/tree/main/iot-hub/Samples/device/DeviceReconnectionSample"/>.
-    /// </summary>
+
     internal class Program
     {
         private static async Task Main(string[] args)
@@ -46,12 +37,6 @@ namespace SimulatedDevice
             // Run the telemetry loop
             await SendDeviceToCloudMessagesAsync(deviceClient, cts.Token);
 
-            // SendDeviceToCloudMessagesAsync is designed to run until cancellation has been explicitly requested by Console.CancelKeyPress.
-            // As a result, by the time the control reaches the call to close the device client, the cancellation token source would
-            // have already had cancellation requested.
-            // Hence, if you want to pass a cancellation token to any subsequent calls, a new token needs to be generated.
-            // For device client APIs, you can also call them without a cancellation token, which will set a default
-            // cancellation timeout of 4 minutes: https://github.com/Azure/azure-iot-sdk-csharp/blob/64f6e9f24371bc40ab3ec7a8b8accbfb537f0fe1/iothub/device/src/InternalClient.cs#L1922
             await deviceClient.CloseAsync();
 
             Console.WriteLine("Device simulator finished.");

@@ -1,0 +1,678 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/martinbruland/Work/FangstID/MartinApps/Program/Program.csproj": {}
+  },
+  "projects": {
+    "/Users/martinbruland/Work/FangstID/azure-iot-sdk-csharp/iothub/device/src/Microsoft.Azure.Devices.Client.csproj": {
+      "version": "1.41.3",
+      "restore": {
+        "projectUniqueName": "/Users/martinbruland/Work/FangstID/azure-iot-sdk-csharp/iothub/device/src/Microsoft.Azure.Devices.Client.csproj",
+        "projectName": "Microsoft.Azure.Devices.Client",
+        "projectPath": "/Users/martinbruland/Work/FangstID/azure-iot-sdk-csharp/iothub/device/src/Microsoft.Azure.Devices.Client.csproj",
+        "packagesPath": "/Users/martinbruland/.nuget/packages/",
+        "outputPath": "/Users/martinbruland/Work/FangstID/azure-iot-sdk-csharp/iothub/device/src/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "/Users/martinbruland/Work/FangstID/azure-iot-sdk-csharp/NuGet.Config",
+          "/Users/martinbruland/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0",
+          "netstandard2.0",
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/martinbruland/Work/FangstID/azure-iot-sdk-csharp/shared/src/Microsoft.Azure.Devices.Shared.csproj": {
+                "projectPath": "/Users/martinbruland/Work/FangstID/azure-iot-sdk-csharp/shared/src/Microsoft.Azure.Devices.Shared.csproj"
+              }
+            }
+          },
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {
+              "/Users/martinbruland/Work/FangstID/azure-iot-sdk-csharp/shared/src/Microsoft.Azure.Devices.Shared.csproj": {
+                "projectPath": "/Users/martinbruland/Work/FangstID/azure-iot-sdk-csharp/shared/src/Microsoft.Azure.Devices.Shared.csproj"
+              }
+            }
+          },
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {
+              "/Users/martinbruland/Work/FangstID/azure-iot-sdk-csharp/shared/src/Microsoft.Azure.Devices.Shared.csproj": {
+                "projectPath": "/Users/martinbruland/Work/FangstID/azure-iot-sdk-csharp/shared/src/Microsoft.Azure.Devices.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "DotNetty.Codecs.Mqtt": {
+              "target": "Package",
+              "version": "[0.7.0, )"
+            },
+            "DotNetty.Common": {
+              "target": "Package",
+              "version": "[0.7.1, )"
+            },
+            "DotNetty.Handlers": {
+              "target": "Package",
+              "version": "[0.7.0, )"
+            },
+            "Microsoft.Azure.Amqp": {
+              "target": "Package",
+              "version": "[2.5.12, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Win32.Registry": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.4.1, )"
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "DotNetty.Codecs.Mqtt": {
+              "target": "Package",
+              "version": "[0.7.0, )"
+            },
+            "DotNetty.Common": {
+              "target": "Package",
+              "version": "[0.7.1, )"
+            },
+            "DotNetty.Handlers": {
+              "target": "Package",
+              "version": "[0.7.0, )"
+            },
+            "Microsoft.Azure.Amqp": {
+              "target": "Package",
+              "version": "[2.5.12, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Win32.Registry": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.4.1, )"
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "DotNetty.Codecs.Mqtt": {
+              "target": "Package",
+              "version": "[0.7.0, )"
+            },
+            "DotNetty.Common": {
+              "target": "Package",
+              "version": "[0.7.1, )"
+            },
+            "DotNetty.Handlers": {
+              "target": "Package",
+              "version": "[0.7.0, )"
+            },
+            "Microsoft.Azure.Amqp": {
+              "target": "Package",
+              "version": "[2.5.12, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Win32.Registry": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[4.4.1, )"
+            },
+            "WindowsAzure.Storage": {
+              "target": "Package",
+              "version": "[9.3.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/martinbruland/Work/FangstID/azure-iot-sdk-csharp/shared/src/Microsoft.Azure.Devices.Shared.csproj": {
+      "version": "1.30.2",
+      "restore": {
+        "projectUniqueName": "/Users/martinbruland/Work/FangstID/azure-iot-sdk-csharp/shared/src/Microsoft.Azure.Devices.Shared.csproj",
+        "projectName": "Microsoft.Azure.Devices.Shared",
+        "projectPath": "/Users/martinbruland/Work/FangstID/azure-iot-sdk-csharp/shared/src/Microsoft.Azure.Devices.Shared.csproj",
+        "packagesPath": "/Users/martinbruland/.nuget/packages/",
+        "outputPath": "/Users/martinbruland/Work/FangstID/azure-iot-sdk-csharp/shared/src/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "/Users/martinbruland/Work/FangstID/azure-iot-sdk-csharp/NuGet.Config",
+          "/Users/martinbruland/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0",
+          "netstandard2.0",
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          },
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          },
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Microsoft.CodeAnalysis.NetAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/martinbruland/Work/FangstID/MartinApps/IotReader/IotReader.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/martinbruland/Work/FangstID/MartinApps/IotReader/IotReader.csproj",
+        "projectName": "IotReader",
+        "projectPath": "/Users/martinbruland/Work/FangstID/MartinApps/IotReader/IotReader.csproj",
+        "packagesPath": "/Users/martinbruland/.nuget/packages/",
+        "outputPath": "/Users/martinbruland/Work/FangstID/MartinApps/IotReader/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/martinbruland/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/martinbruland/Work/FangstID/azure-iot-sdk-csharp/iothub/device/src/Microsoft.Azure.Devices.Client.csproj": {
+                "projectPath": "/Users/martinbruland/Work/FangstID/azure-iot-sdk-csharp/iothub/device/src/Microsoft.Azure.Devices.Client.csproj"
+              },
+              "/Users/martinbruland/Work/FangstID/azure-iot-sdk-csharp/shared/src/Microsoft.Azure.Devices.Shared.csproj": {
+                "projectPath": "/Users/martinbruland/Work/FangstID/azure-iot-sdk-csharp/shared/src/Microsoft.Azure.Devices.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Azure.Messaging.EventHubs": {
+              "target": "Package",
+              "version": "[5.7.5, )"
+            },
+            "CommandLineParser": {
+              "target": "Package",
+              "version": "[2.9.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/martinbruland/Work/FangstID/MartinApps/IotSender/IotSender.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/martinbruland/Work/FangstID/MartinApps/IotSender/IotSender.csproj",
+        "projectName": "IotSender",
+        "projectPath": "/Users/martinbruland/Work/FangstID/MartinApps/IotSender/IotSender.csproj",
+        "packagesPath": "/Users/martinbruland/.nuget/packages/",
+        "outputPath": "/Users/martinbruland/Work/FangstID/MartinApps/IotSender/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/martinbruland/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/martinbruland/Work/FangstID/azure-iot-sdk-csharp/iothub/device/src/Microsoft.Azure.Devices.Client.csproj": {
+                "projectPath": "/Users/martinbruland/Work/FangstID/azure-iot-sdk-csharp/iothub/device/src/Microsoft.Azure.Devices.Client.csproj"
+              },
+              "/Users/martinbruland/Work/FangstID/azure-iot-sdk-csharp/shared/src/Microsoft.Azure.Devices.Shared.csproj": {
+                "projectPath": "/Users/martinbruland/Work/FangstID/azure-iot-sdk-csharp/shared/src/Microsoft.Azure.Devices.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "CommandLineParser": {
+              "target": "Package",
+              "version": "[2.9.1, )"
+            },
+            "Microsoft.Azure.Devices.Client": {
+              "target": "Package",
+              "version": "[2.0.0-preview002, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/martinbruland/Work/FangstID/MartinApps/Program/Program.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/martinbruland/Work/FangstID/MartinApps/Program/Program.csproj",
+        "projectName": "Program",
+        "projectPath": "/Users/martinbruland/Work/FangstID/MartinApps/Program/Program.csproj",
+        "packagesPath": "/Users/martinbruland/.nuget/packages/",
+        "outputPath": "/Users/martinbruland/Work/FangstID/MartinApps/Program/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/martinbruland/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/Users/martinbruland/Work/FangstID/MartinApps/IotReader/IotReader.csproj": {
+                "projectPath": "/Users/martinbruland/Work/FangstID/MartinApps/IotReader/IotReader.csproj"
+              },
+              "/Users/martinbruland/Work/FangstID/MartinApps/IotSender/IotSender.csproj": {
+                "projectPath": "/Users/martinbruland/Work/FangstID/MartinApps/IotSender/IotSender.csproj"
+              },
+              "/Users/martinbruland/Work/FangstID/MartinApps/SensorSimulator/SensorSimulator.csproj": {
+                "projectPath": "/Users/martinbruland/Work/FangstID/MartinApps/SensorSimulator/SensorSimulator.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/martinbruland/Work/FangstID/MartinApps/SensorSimulator/SensorSimulator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/martinbruland/Work/FangstID/MartinApps/SensorSimulator/SensorSimulator.csproj",
+        "projectName": "SensorSimulator",
+        "projectPath": "/Users/martinbruland/Work/FangstID/MartinApps/SensorSimulator/SensorSimulator.csproj",
+        "packagesPath": "/Users/martinbruland/.nuget/packages/",
+        "outputPath": "/Users/martinbruland/Work/FangstID/MartinApps/SensorSimulator/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/martinbruland/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
